@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio notas</title>
+</head>
+
+<body>
+    <script>
+        let porcent1, porcent2, porcent3, nota1 = 3.0, nota2 = 5.0, nota3 = 2.3, sum
+        porcent1 = (nota1 * 20) / 100
+        porcent2 = (nota2 * 35) / 100
+        porcent3 = (nota3 * 45) / 100
+        sum = porcent1 + porcent2 + porcent3
+        if (sum > 4.5) {
+            console.log("Nota superior")
+        }
+        else {
+            if (sum <= 4.5 && sum > 3.5) {
+                console.log("Nota buena")
+            }
+            else {
+                if (sum <= 3.5 && sum >= 3) {
+                    console.log("Nota media")
+                }
+                else {
+                    console.log("Nota mala")
+                }
+            }
+            console.log("El 20% de la nota1 es: " + porcent1)
+            console.log("El 35% de la nota2 es: " + porcent2)
+            console.log("El 45% de la nota3 es: " + porcent3)
+            console.log("Suma de los porcentajes: " + sum)
+        }
+    </script>
+</body>
+
+</html>

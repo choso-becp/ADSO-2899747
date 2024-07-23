@@ -1,0 +1,199 @@
+#principal {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fila {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cuadros-filas {
+    padding-top: 18px;
+    float: left;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    position: relative;
+    transition: transform 0.03s;
+}
+
+.espacios-abajo {
+    width: 50px;
+    width: 100%;
+    height: 50px;
+    height: 10vh;
+    border: 1px solid white;
+}
+
+.cuadros-filas:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+/*ESPACIOS VACIOS*/
+.espacios-vacios {
+    padding-top: 20px;
+    width: 50px;
+    width: 100%;
+    height: 50px;
+    height: 10vh;
+    border: 1px solid white;
+}
+
+.espacios-abajo-vacios {
+    width: 5px;
+    width: 100%;
+    height: 10px;
+    height: 4vh;
+    border: 1px solid white;
+}
+
+.numero {
+    position: absolute;
+    top: -5%;
+    left: 1%;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 2px;
+    font-weight: bold;
+}
+
+.atomo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nombre {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+
+.masa {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.oxidacion {
+    position: absolute;
+    top: 16%;
+    right: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.electronegatividad {
+    position: absolute;
+    top: 28%;
+    right: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.radio {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.ebullicion {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.fusion {
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.densidad {
+    position: absolute;
+    top: 54%;
+    left: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.ionizacion {
+    position: absolute;
+    top: 66%;
+    left: 2%;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.estructura {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.grupo {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#verdeclaro {
+    background-color: #D4E157;
+}
+
+#azulclaro {
+    background-color: #29B6F6;
+}
+
+#verdeoscuro {
+    background-color: #8BC34A;
+}
+
+#rojo {
+    background-color: #F44336;
+}
+
+#blanco {
+    background-color: white;
+}
+
+#morado {
+    background-color: #BA68C8;
+}
+
+#rosado {
+    background-color: #F48FB1;
+}
+
+#rosadoclaro {
+    background-color: #F8BBD0;
+}

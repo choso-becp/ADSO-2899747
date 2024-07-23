@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla del 1 al 5, Pares e Impares</title>
+</head>
+
+<body>
+    <script>
+        let mult, cont, tab
+        let par = 0
+        let impar = 0
+
+        for (tab = 1; tab <= 5; tab++) {
+            cont = 1
+            for (cont = 1; cont <= 5; cont++) {
+                mult = tab * cont
+                if (mult % 2 == 0) {
+                    console.log(tab + " * " + cont + " = " + mult + " buzz");
+                    par = par + 1
+                }
+                else {
+                    console.log(tab + " * " + cont + " = " + mult + " bass");
+                    impar = impar + 1
+                }
+            }
+        }
+        console.log("Hay " + par + " numeros pares");
+        console.log("Hay " + impar + " numeros impares");
+    </script>
+</body>
+
+</html>

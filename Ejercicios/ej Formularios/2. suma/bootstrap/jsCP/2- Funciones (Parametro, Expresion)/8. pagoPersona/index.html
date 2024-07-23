@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo Persona</title>
+    <script src="js/pagoTotal.js"></script>
+</head>
+<body>
+    <script>
+        let pdias=5
+        let pVdia=50000
+        let salarioPersona=salario(pdias, pVdia)
+        let pagoTotalPersona=pagoTotal(pdias, pVdia)
+        let subTrans=SubTrans(pdias, pVdia)
+        let salarioPersonaExp=salarioExp(pdias, pVdia)
+        let pagoTotalPersonaExp=pagoTotalExp(pdias, pVdia)
+        let subTransExp=SubTransExp(pdias, pVdia)
+
+        //PARAMETRO
+        console.log("PARAMETRO")
+        console.log("Salario "+salarioPersona)
+        console.log("Subsidio Transporte "+subTrans)
+        console.log("Pago Total "+pagoTotalPersona)
+
+        //EXPRESION
+        console.log("EXPRESION")
+        console.log("Salario "+salarioPersonaExp)
+        console.log("Subsidio Transporte "+subTransExp)
+        console.log("Pago Total "+pagoTotalPersonaExp)
+    </script>
+</body>
+
+</html>

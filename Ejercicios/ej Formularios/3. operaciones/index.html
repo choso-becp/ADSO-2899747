@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operaciones basicas</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Formulario-->
+    <div class="col-12 izquierda">
+      <div class="contIzq">
+        <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return operaciones();">
+          <div class="col-md-8">
+            <h4>Formulario</h4><br>
+            <label for="operacion">Selecciona la operación</label>
+            <select id="operacion">
+              <option></option>
+              <option value="suma">Suma</option>
+              <option value="resta">Resta</option>
+              <option value="multiplicacion">Multiplicación</option>
+              <option value="division">División</option>
+            </select><br>
+            <label for="txtNumeroUno" class="form-label">Ingrese el número uno</label>
+            <input type="number" class="form-control" id="txtNumeroUno" value="" required
+              placeholder="Digite un número">
+          </div>
+          <div class="col-md-8">
+            <label for="txtNumeroDos" class="form-label">Ingrese el número dos</label>
+            <input type="number" class="form-control" id="txtNumeroDos" value="" required
+              placeholder="Digite un número">
+          </div>
+          <div class="col-10">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--Respuesta-->
+    <div class="col-12 derecha">
+      <div class="contDer">
+        <div class="col-4">
+          <div class="col-12">
+            <h4>Respuesta</h4><br>
+          </div>
+          <div id="resultado"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/operaciones.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

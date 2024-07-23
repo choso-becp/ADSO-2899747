@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentaje Notas</title>
+    <script src="js/porcentNotas.js"></script>
+</head>
+
+<body>
+    <script>
+        let nota1
+        let nota2
+        let nota3
+        let sumaPorcen
+        //Con Parametros
+        nota1=calcPorcen(3.3, 30)
+        nota2=calcPorcen(5.0, 30)
+        nota3=calcPorcen(2.8, 40)
+        //Con Expresion
+        nota1=calcPorcenExp(3.3, 30)
+        nota2=calcPorcenExp(5.0, 30)
+        nota3=calcPorcenExp(2.8, 40)
+        sumaPorcen=nota1+nota2+nota3
+
+        console.log ("Con Parametros:")
+        console.log("Porcentaje nota 1: "+nota1)
+        console.log("Porcentaje nota 2: "+nota2)
+        console.log("Porcentaje nota 3: "+nota3)
+        console.log("La sumatoria de los porcentajes: "+sumaPorcen)
+
+        console.log ("Con Experesion:")
+        console.log("Porcentaje nota 1: "+nota1)
+        console.log("Porcentaje nota 2: "+nota2)
+        console.log("Porcentaje nota 3: "+nota3)
+        console.log("La sumatoria de los porcentajes: "+sumaPorcen)
+    </script>
+</body>
+
+</html>

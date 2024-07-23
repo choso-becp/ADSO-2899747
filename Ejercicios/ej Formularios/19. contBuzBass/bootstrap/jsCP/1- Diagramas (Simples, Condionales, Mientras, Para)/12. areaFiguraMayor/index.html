@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas Figura Mayor</title>
+</head>
+
+<body>
+    <script>
+        let cua1, cua2, cua3
+        let lado1 = 6, lado2 = 12, lado3 = 8
+        cua1 = lado1 * lado1
+        cua2 = lado2 * lado2
+        cua3 = lado3 * lado3
+        if (cua1==cua2 && cua2==cua3) {
+            console.log("Todos son iguales");
+        }
+        else {
+            if (cua1>cua2 && cua1>cua3) {
+                console.log("El area del cuadrado UNO es: "+cua1+" -> es mayor")
+            }
+            else {
+                if (cua2>cua1 && cua2>cua3) {
+                    console.log("El area del cuadrado DOS es: "+cua2+" -> es mayor")
+                } else {
+                    console.log("El area del cuadrado TRES es: "+cua3+" -> es mayor")
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

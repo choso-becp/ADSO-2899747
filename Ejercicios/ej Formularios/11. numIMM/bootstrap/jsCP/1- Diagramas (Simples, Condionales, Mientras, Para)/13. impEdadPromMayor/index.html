@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimir Edad, Promedio edades y Promedio Mayor de edad</title>
+</head>
+
+<body>
+    <script>
+        let edad1, edad2, edad3, suma, prom
+        let anoAct1 = 2024, anoAct2 = 2024, anoAct3 = 2024
+        let anoNa1 = 2005, anoNa2 = 2006, anoNa3 = 2007
+        edad1 = anoAct1 - anoNa1
+        edad2 = anoAct2 - anoNa2
+        edad3 = anoAct3 - anoNa3
+        suma = edad1 + edad2 + edad3
+        prom = suma / 3
+        if (edad1 >= 18) {
+            console.log("La primera edad es: " + edad1 + " -> es mayor")
+        } else {
+            console.log("La primera edad es: " + edad1 + " -> es menor")
+        }
+        if (edad2 >= 18) {
+            console.log("La segunda edad es: " + edad2 + " -> es mayor")
+        } else {
+            console.log("La segunda edad es: " + edad2 + " -> es menor")
+        }
+        if (edad3 >= 18) {
+            console.log("La tercera edad es: " + edad3 + " -> es mayor")
+        } else {
+            console.log("La tercera edad es: " + edad3 + " -> es menor")
+        }
+
+        console.log("El promedio de edad es: " + prom)
+
+        if (prom < 18) {
+            console.log("El promedio es minoria de edad")
+        } else {
+            console.log("El promedio es mayoria de edad")
+        }
+    </script>
+</body>
+
+</html>

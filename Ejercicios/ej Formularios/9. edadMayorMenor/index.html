@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porcentaje</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Formulario-->
+    <div class="col-12 izquierda">
+      <div class="contIzq">
+        <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return edadVerificar();">
+          <div class="col-md-8">
+            <h4>Formulario</h4><br>
+            <label for="txtNumeroUno" class="form-label">Verificador de edades</label>
+            <input type="number" class="form-control" id="txtNumeroUno" value="" min="0" step="1" required placeholder="Digite su edad">
+            <div class="valid-feedback">
+              Respuesta enviada!
+            </div>
+          </div>
+          <div class="col-10">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--Respuesta-->
+    <div class="col-12 derecha">
+      <div class="contDer">
+        <div class="col-4">
+          <div class="col-12">
+            <h4>Respuesta</h4><br>
+          </div>
+          <div id="verificar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/edad.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

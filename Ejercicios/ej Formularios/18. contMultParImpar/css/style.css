@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda{
+    float: left;
+    width: 40%;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(255,255,255,0.5);
+}
+
+.derecha{
+    float: right;
+    width: 40%;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    overflow-y: scroll;
+}
+
+.contIzq{
+    color: black;
+    margin: 50px;
+}
+
+.contDer{
+    color: black;
+    margin: 50px;
+    width: 110%;
+}

@@ -1,0 +1,13 @@
+.tabla-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+}
+.card {
+    margin: 10px; 
+    width: 12rem; 
+}
+.table {
+    width: 100%;
+}
